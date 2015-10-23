@@ -1,0 +1,39 @@
+* {
+  font-family: "San Francisco", "Helvetica", sans-serif; }
+
+.side-menu {
+  background: url("/img/menuBg.png") bottom left no-repeat #999;
+  background-size: cover; }
+  .side-menu ion-list {
+    background-color: transparent;
+    padding-top: 30px; }
+    .side-menu ion-list ion-item {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+      font-weight: bolder; }
+      .side-menu ion-list ion-item.header {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 15px; }
+        .side-menu ion-list ion-item.header img {
+          border-radius: 50%;
+          width: 20%;
+          height: 20%;
+          border: 2px solid rgba(255, 255, 255, 0.5); }
+        .side-menu ion-list ion-item.header span {
+          font-weight: normal;
+          font-size: 0.85em;
+          display: block; }
+      .side-menu ion-list ion-item .icon {
+        margin-left: 10px;
+        margin-right: 15px; }
+      .side-menu ion-list ion-item .item-content {
+        background-color: transparent;
+        width: 100%;
+        display: block; }
+        .side-menu ion-list ion-item .item-content:active {
+          background-color: transparent; }
+
+.menu-content {
+  box-shadow: -1px 0px 20px rgba(0, 0, 0, 0.3), 1px 0px 20px rgba(0, 0, 0, 0.3); }

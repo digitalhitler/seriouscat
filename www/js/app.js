@@ -49,11 +49,11 @@ angular.module('seriousCat', ['ionic', 'seriousCat.controllers'])
         }
       }
     })
-    .state('app.playlists', {
+    .state('app.mainWindow', {
       url: '/playlists',
       views: {
         'menuContent': {
-          templateUrl: 'templates/playlists.html',
+          templateUrl: 'templates/mainWindow.html',
           controller: 'PlaylistsCtrl'
         }
       }
@@ -63,11 +63,11 @@ angular.module('seriousCat', ['ionic', 'seriousCat.controllers'])
     url: '/playlists/:playlistId',
     views: {
       'menuContent': {
-        templateUrl: 'templates/playlist.html',
+        templateUrl: 'templates/mainWindow.html',
         controller: 'PlaylistCtrl'
       }
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/mainWindow');
 });

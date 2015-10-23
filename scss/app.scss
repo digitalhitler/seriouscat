@@ -1,0 +1,65 @@
+
+// I am really love San Francisco
+// Changing font for everything:
+* {
+  font-family: "San Francisco", "Helvetica", sans-serif;
+}
+
+
+// Side menu styles
+.side-menu {
+
+  background: url("/img/menuBg.png") bottom left no-repeat #999;
+  background-size: cover;
+
+  ion-list {
+    background-color: transparent;
+    padding-top: 30px;
+
+    ion-item {
+      background-color: transparent;
+      border: none;
+      color: #fff;
+      font-weight: bolder;
+
+      &.header {
+        margin-left: 0;
+        text-align: center;
+        margin-top: 15px;
+
+        img {
+          border-radius: 50%;
+          width: 20%;
+          height: 20%;
+          border: 2px solid rgba(255,255,255,0.5);
+        }
+
+        span {
+          font-weight: normal;
+          font-size: 0.85em;
+          display: block;
+        }
+      }
+
+      .icon {
+        margin-left: 10px;
+        margin-right: 15px;
+      }
+
+      .item-content {
+        background-color: transparent;
+        width: 100%;
+        display: block;
+
+        &:active {
+          background-color: transparent
+        }
+      }
+    }
+  }
+}
+
+.menu-content {
+  box-shadow: -1px 0px 20px rgba(0, 0, 0, 0.3),
+              1px 0px 20px rgba(0, 0, 0, 0.3);
+}
